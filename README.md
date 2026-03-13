@@ -40,4 +40,5 @@ gitseek ai --clone 2
 
 ## Author
 
-Ashish Des
+
+Ashish 
