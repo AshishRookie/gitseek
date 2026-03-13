@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gitseek"
+version = "0.1.2"
+description = "Search GitHub projects from the terminal"
+authors = [
+    {name="Ashish "}
+]
+dependencies = [
+    "requests"
+]
+
+[project.scripts]
+gitseek = "gitseek.cli:main"
